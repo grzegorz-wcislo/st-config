@@ -7,6 +7,7 @@
  */
 static char font[] = "DejaVu Sans Mono Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 16;
+#define histsize 2000
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -171,6 +172,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY|ShiftMask,     XK_C,           clipcopy,       {.i =  0} },
 	{ MODKEY|ShiftMask,     XK_V,           clippaste,      {.i =  0} },
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
 
 /*

@@ -90,7 +90,7 @@ static const int alpha = 0xC0;
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#000000", /* black   */
+  [0] = "#050b10", /* black   */
   [1] = "#f92672", /* red     */
   [2] = "#a6e22e", /* green   */
   [3] = "#f4bf75", /* yellow  */
@@ -100,7 +100,7 @@ static const char *colorname[] = {
   [7] = "#f8f8f2", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#75715e", /* black   */
+  [8]  = "#283238", /* black   */
   [9]  = "#f92672", /* red     */
   [10] = "#a6e22e", /* green   */
   [11] = "#f4bf75", /* yellow  */

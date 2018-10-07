@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "DejaVu Sans Mono Nerd Font:size=12:antialias=true:autohint=true";
+static char font[] = "GohuFont:pixelsize=14";
 static int borderpx = 10;
 #define histsize 2000
 
